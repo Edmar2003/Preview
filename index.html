@@ -3,1477 +3,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class of Makanature 2025</title>
-    <link rel="shortcut icon" href="MakakalikasanIcon/MakakalikasanLogo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Site Temporarily Unavailable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary: #6a5acd;
-            --secondary: #9370db;
-            --accent: #ff8c00;
-            --light: #f8f9fa;
-            --dark: #343a40;
-            --memory-blue: #4b9cd3;
-            --memory-pink: #ff6b6b;
-            --memory-yellow: #ffd166;
-            --memory-green: #06d6a0;
-        }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
+        
         body {
-            background-color: var(--light);
-            color: var(--dark);
-            overflow-x: hidden;
-        }
-
-        section {
-            padding: 4rem 2rem;
-            min-height: 100vh;
-            position: relative;
-        }
-
-        h1, h2, h3 {
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 3.5rem;
-            background: linear-gradient(45deg, var(--primary), var(--accent));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            margin-bottom: 2rem;
-        }
-
-        h2 {
-            font-size: 2.5rem;
-            color: var(--primary);
-        }
-
-        .section-title {
-            position: relative;
-            display: inline-block;
-            margin: 0 auto 3rem;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary), var(--accent));
-            border-radius: 2px;
-        }
-
-        /* Header Styles */
-        header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            font-family: 'Roboto', sans-serif;
             color: white;
-            text-align: center;
-            padding: 2rem 0;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            min-height: 100vh;
+            overflow: hidden;
+            background: #000;
         }
-
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .header-content p {
-            font-size: 1.2rem;
-            margin-top: 1rem;
-            opacity: 0.9;
-        }
-
-        /* Navigation */
-        nav {
+        
+        #space-bg {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            background-color: rgba(255, 255, 255, 0.95);
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-            transition: all 0.3s ease;
+            height: 100%;
+            z-index: -1;
         }
-
-        nav.scrolled {
-            background-color: rgba(106, 90, 205, 0.95);
-        }
-
-        nav.scrolled a {
-            color: white;
-        }
-
-        .nav-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
-        }
-
-        .logo {
-            font-weight: 700;
-            font-size: 1.5rem;
-            color: var(--primary);
-        }
-
-        nav.scrolled .logo {
-            color: white;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: var(--dark);
-            font-weight: 600;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .nav-links a:hover {
-            color: var(--primary);
-        }
-
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: var(--primary);
-            transition: width 0.3s ease;
-        }
-
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-
-        nav.scrolled .nav-links a::after {
-            background-color: white;
-        }
-
-        /* Album Animation */
-        #intro {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        
+        .container {
             display: flex;
             flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             text-align: center;
-        }
-
-        .album-container {
-            width: 80%;
-            max-width: 800px;
-            height: 500px;
+            padding: 2rem;
             position: relative;
-            perspective: 1000px;
-            margin: 2rem auto;
-        }
-
-        .photo-slide {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-            transition: transform 1s ease, opacity 1s ease, z-index 0.3s ease;
-            transform-style: preserve-3d;
-            opacity: 0;
             z-index: 1;
+            background-color: rgba(0, 0, 0, 0.4);
         }
-
-        .photo-slide.active {
-            opacity: 1;
-            z-index: 10;
-            transform: translate3d(0, 0, 0) rotateY(0deg);
+        
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 15px rgba(66, 220, 255, 0.7);
+            color: #ffffff;
+            animation: pulse 3s infinite alternate;
         }
-
-        .photo-slide.prev {
-            opacity: 0.7;
-            transform: translate3d(-60%, 0, -100px) rotateY(-15deg);
-            z-index: 9;
-        }
-
-        .photo-slide.next {
-            opacity: 0.7;
-            transform: translate3d(60%, 0, -100px) rotateY(15deg);
-            z-index: 9;
-        }
-
-        .photo-slide img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .album-controls {
-            display: flex;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .album-btn {
-            background-color: var(--primary);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            font-size: 1.2rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .album-btn:hover {
-            background-color: var(--secondary);
-            transform: scale(1.1);
-        }
-
-        /* Classmates Section */
-        #classmates {
-            background-color: white;
-        }
-
-        .classmates-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .classmate-card {
-            position: relative;
+        
+        .apology {
+            font-size: 1.8rem;
+            max-width: 800px;
+            line-height: 1.6;
+            margin-bottom: 3rem;
+            background-color: rgba(0, 20, 40, 0.7);
+            padding: 2rem;
             border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.5s ease;
-            height: 250px;
+            border: 1px solid rgba(100, 180, 255, 0.3);
+            box-shadow: 0 0 25px rgba(100, 180, 255, 0.2);
         }
-
-        .classmate-card::before {
-            content: '';
+        
+        .contact-info {
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .status {
+            display: inline-block;
+            background-color: rgba(255, 50, 50, 0.2);
+            padding: 0.5rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            border: 1px solid rgba(255, 100, 100, 0.5);
+        }
+        
+        .stars {
             position: absolute;
             top: 0;
             left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(45deg, var(--memory-blue), var(--memory-pink), var(--memory-yellow), var(--memory-green));
-            background-size: 400% 400%;
+            width: 100%;
+            height: 100%;
             z-index: -1;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-            border-radius: 10px;
         }
-
-        .classmate-card:hover::before {
-            opacity: 1;
-            animation: gradientBorder 3s ease infinite;
+        
+        .star {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
         }
-
-        @keyframes gradientBorder {
+        
+        @keyframes pulse {
             0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
+                text-shadow: 0 0 15px rgba(66, 220, 255, 0.7);
             }
             100% {
-                background-position: 0% 50%;
+                text-shadow: 0 0 25px rgba(66, 220, 255, 1), 0 0 35px rgba(66, 150, 255, 0.8);
             }
         }
-
-        .classmate-img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
+        
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
         }
-
-        .classmate-card:hover .classmate-img {
-            transform: scale(1.05);
-        }
-
-        .classmate-info {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-            color: white;
-            padding: 1rem;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-
-        .classmate-card:hover .classmate-info {
-            transform: translateY(0);
-        }
-
-        .classmate-name {
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-
-        .classmate-quote {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-
-        /* Teachers Section */
-        #teachers {
-            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
-        }
-
-        .teachers-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 2rem;
-        }
-
-        .teacher-card {
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .teacher-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        .teacher-header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
-        }
-
-        .teacher-name {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .teacher-subject {
-            font-size: 1rem;
-            opacity: 0.9;
-        }
-
-        .teacher-body {
-            padding: 1.5rem;
-            flex-grow: 1;
-        }
-
-        .subject-description {
-            margin-bottom: 1rem;
-            line-height: 1.6;
-        }
-
-        .teacher-footer {
-            padding: 1rem;
-            background-color: #f8f9fa;
-            text-align: center;
-            font-style: italic;
-            color: #666;
-        }
-
-        /* Memories Section */
-        #memories {
-            background-color: white;
-        }
-
-        .memory-content {
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.8;
-            font-size: 1.1rem;
-        }
-
-        .memory-content p {
-            margin-bottom: 1.5rem;
-            text-align: justify;
-        }
-
-        .memory-highlight {
-            background-color: rgba(255, 215, 0, 0.3);
-            padding: 0.2rem 0.5rem;
-            border-radius: 3px;
-        }
-
-        /* Gallery Section */
-        #gallery {
-            background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
-        }
-
-        .gallery-container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .gallery-item {
-            position: relative;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            aspect-ratio: 1;
-        }
-
-        .gallery-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-
-        .gallery-item img, .gallery-item video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .gallery-item:hover img, .gallery-item:hover video {
-            transform: scale(1.1);
-        }
-
-        .gallery-caption {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-            color: white;
-            padding: 1rem;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover .gallery-caption {
-            transform: translateY(0);
-        }
-
-        .video-container {
-            grid-column: 1 / -1;
-            margin-top: 2rem;
-        }
-
-        .memory-video {
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Footer */
-        footer {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin: 1.5rem 0;
-        }
-
-        .footer-links a {
-            color: white;
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: var(--accent);
-            transform: translateY(-5px);
-        }
-
-        .copyright {
-            opacity: 0.8;
-            font-size: 0.9rem;
-        }
-
-        /* Animations */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .fade-in {
-            animation: fadeIn 1s ease forwards;
-        }
-
-        .delay-1 {
-            animation-delay: 0.2s;
-        }
-
-        .delay-2 {
-            animation-delay: 0.4s;
-        }
-
-        .delay-3 {
-            animation-delay: 0.6s;
-        }
-
-        /* Responsive Design */
+        
         @media (max-width: 768px) {
             h1 {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
-
-            h2 {
-                font-size: 2rem;
+            
+            .apology {
+                font-size: 1.4rem;
+                padding: 1.5rem;
             }
-
-            section {
-                padding: 3rem 1rem;
+            
+            .contact-info {
+                font-size: 1.1rem;
             }
-
-            .nav-container {
-                flex-direction: column;
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .apology {
+                font-size: 1.2rem;
                 padding: 1rem;
-            }
-
-            .nav-links {
-                margin-top: 1rem;
-                gap: 1rem;
-            }
-
-            .album-container {
-                width: 95%;
-                height: 400px;
-            }
-
-            .teachers-container {
-                grid-template-columns: 1fr;
-            }
-
-            .classmates-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            }
-
-            .memory-content {
-                font-size: 1rem;
             }
         }
     </style>
 </head>
 <body>
-
-    <nav>
-        <div class="nav-container">
-            <div class="logo">MAKANATURE</div>
+    <div id="space-bg"></div>
+    <div class="stars" id="stars-container"></div>
+    
+    <div class="container">
+        <h1>Website Temporarily Down</h1>
+        
+        <div class="apology">
+            <p>We sincerely apologize for the inconvenience. The website is currently undergoing maintenance to improve your experience.</p>
+            <p>I am working diligently to restore this as quickly as possible. Thank you for your patience and understanding.</p>
+            
+            <div class="status">Expected to be back online in a few days</div>
         </div>
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <br>
-            <br>
-            <h1>Our Graduation Journey</h1>
-            <p>Celebrating the memories, laughter, and bonds we've built together</p>
-            <p>April 15, 2025</p>
-        </div>
-    </header>
-
-    <!-- Album Animation -->
-    <section id="intro">
-        <h2 class="section-title">Our Journey in Pictures</h2>
-        <div class="album-container">
-            <div class="photo-slide">
-                <img src="Album/GraduationClassPic.jpg" alt="Class photo">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/GraduationPic.jpg" alt="Friends together">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/BATB-GradPic.jpg" alt="Classroom moments">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/WorkImmersionPic.png" alt="Celebration">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/WorkImmersionPic-001.png" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Before-Toga.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Group-Pic(not complete).jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/WorkImmersionPic-002.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/WorkImmersionGroupPic.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/BestTeacher.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Intercultural-Dance.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Year-End-Party.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Grade-11-Makakalikasan.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Practice.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Practice001.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Practice002.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/FirstPhotoWithHer.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/PickUpCard.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Pubmat.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/WorkImmersionGroupPic-001.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Movie-Class.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Both.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Dance.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Dance002.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/TeachersDay.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/TeachrsDay-001.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/GroupPicBATB.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/3Boyz.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Report.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/Report002.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/BoyzAtTheBack.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/BasecoPic.jpg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/BackBoyz.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/DancePic.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/DancePic001.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/DancePic003.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/DancePic002.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/KaraokPic.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/ClasspicBestTeacher.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/ClasspicBestTeacher001.jpeg" alt="School memories">
-            </div>
-            <div class="photo-slide">
-                <img src="Album/WorkImmersionPic.jpeg" alt="School memories">
-            </div>
-        </div>
-        <div class="album-controls">
-            <button class="album-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
-            <button class="album-btn next-btn"><i class="fas fa-chevron-right"></i></button>
-        </div>
-    </section>
-
-<!-- ===== Classmates Section ===== -->
-<section id="classmates">
-    <h2 class="section-title">Our Amazing Class</h2>
-    <div class="classmates-grid">
-
-        <!-- Boys -->
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Bilecario.jpg" alt="BELICARIO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">BELICARIO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Cuntapay.jpg" alt="CUNTAPAY">
-            <div class="classmate-info">
-                <h4 class="classmate-name">CUNTAPAY</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Deguzman.jpg" alt="DE GUZMAN">
-            <div class="classmate-info">
-                <h4 class="classmate-name">DE GUZMAN</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Gagatam.jpg" alt="GAGATAM">
-            <div class="classmate-info">
-                <h4 class="classmate-name">GAGATAM</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Lareda.jpg" alt="LAREDA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">LAREDA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Naga.jpg" alt="NAGA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">NAGA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Nakila.jpg" alt="NAKILA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">NAKILA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Picardal.jpg" alt="PICARDAL">
-            <div class="classmate-info">
-                <h4 class="classmate-name">PICARDAL</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Salve.jpg" alt="SALVE">
-            <div class="classmate-info">
-                <h4 class="classmate-name">SALVE</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Joshua.jpg" alt="SENARILLOS">
-            <div class="classmate-info">
-                <h4 class="classmate-name">SENARILLOS</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Sivilla.jpg" alt="SEVILLA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">SEVILLA</h4>
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Jv.jpg" alt="SIERVO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">SIERVO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Tagabi.jpg" alt="TAGABI">
-            <div class="classmate-info">
-                <h4 class="classmate-name">TAGABI</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Tamayosa.jpg" alt="TAMAYOSA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">TAMAYOSA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Villarin.jpg" alt="VILLARIN">
-            <div class="classmate-info">
-                <h4 class="classmate-name">VILLARIN</h4>            
-            </div>
-        </div>
-
-        <!-- Girls -->
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Jewell.jpg" alt="ARRIESGADO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">AKMAD</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Trisha.jpg" alt="ARRIESGADO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">ARRIESGADO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Baluyot.jpg" alt="BALUYOT">
-            <div class="classmate-info">
-                <h4 class="classmate-name">BALUYOT</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Caranto.jpg" alt="CARANTO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">CARANTO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Dapat.jpg" alt="DAPAT">
-            <div class="classmate-info">
-                <h4 class="classmate-name">DAPAT</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/De Asa.jpg" alt="DE ASA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">DE ASA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Shiela.jpg" alt="DEL ROSARIO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">DEL ROSARIO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Francisco.jpg" alt="FRANCISCO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">FRANCISCO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Gariando.jpg" alt="GARIANDO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">GARIANDO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Hermo.jpg" alt="HERMO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">HERMO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Junio.jpg" alt="JUNIO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">JUNIO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Stephanie.jpg" alt="LAMBANA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">LAMBANA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Lasquite.jpg" alt="LASQUITE">
-            <div class="classmate-info">
-                <h4 class="classmate-name">LASQUITE</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Mallari.jpg" alt="MALLARI">
-            <div class="classmate-info">
-                <h4 class="classmate-name">MALLARI</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Cathie.jpg" alt="MARCIANO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">MARCIANO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Mimbala.jpg" alt="MIMBALA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">MIMBALA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Janin.jpg" alt="NAVARRO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">NAVARRO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Ocampo.jpg" alt="OCAMPO">
-            <div class="classmate-info">
-                <h4 class="classmate-name">OCAMPO</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Omandam.jpg" alt="OMANDAM">
-            <div class="classmate-info">
-                <h4 class="classmate-name">OMANDAM</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Charm.jpg" alt="PARICA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">PARICA</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Perol.jpg" alt="PEROL">
-            <div class="classmate-info">
-                <h4 class="classmate-name">PEROL</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Salem.jpg" alt="SALEM">
-            <div class="classmate-info">
-                <h4 class="classmate-name">SALEM</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Sekak.jpg" alt="SEKAK">
-            <div class="classmate-info">
-                <h4 class="classmate-name">SEKAK</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Ursal.jpg" alt="URSAL">
-            <div class="classmate-info">
-                <h4 class="classmate-name">URSAL</h4>            
-            </div>
-        </div>
-        <div class="classmate-card">
-            <img class="classmate-img" src="Classmate-Picture/Zaraga.jpg" alt="ZARAGA">
-            <div class="classmate-info">
-                <h4 class="classmate-name">ZARAGA</h4>            
-            </div>
+        
     </div>
-</section>
-
-    <!-- Teachers Section -->
-    <section id="teachers">
-        <h2 class="section-title">Our Wonderful Teachers</h2>
-        <div class="teachers-container">
-
-            <div class="teacher-card fade-in delay-2">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Sir. Flor</h3>
-                    <p class="teacher-subject">Practical Research 2</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Practical Research 2</h4>
-                    <p class="subject-description">Focuses on quantitative research methods, teaching students how to design, conduct, and present research studies.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Research is formalized curiosity."
-                </div>
-            </div>
-
-
-            <div class="teacher-card fade-in">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Sir. Niel</h3>
-                    <p class="teacher-subject">CPAR & 21st Century Literature</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Contemporary Philippines Art from the Regions (CPAR)</h4>
-                    <p class="subject-description">Explores the diversity and richness of Philippine arts from different regions, fostering appreciation for local artistic expressions and cultural heritage.</p>
-                    <h4>21st Century Literature from Philippines and the World</h4>
-                    <p class="subject-description">Examines literary works from the Philippines and around the world in the context of 21st century themes and digital media influences.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Art and literature are mirrors of our society."
-                </div>
-            </div>
-
-
-            <div class="teacher-card fade-in delay-1">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Sir. Makaraig</h3>
-                    <p class="teacher-subject">Understanding Culture, Society and Politics</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Understanding Culture, Society and Politics (UCSP)</h4>
-                    <p class="subject-description">Investigates human cultural variation, social differences, social change, and political identities to develop cultural awareness and sensitivity.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Understand the world to change the world."
-                </div>
-            </div>
-
-
-            <div class="teacher-card fade-in delay-2">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Sir. Torres</h3>
-                    <p class="teacher-subject">Physical Education and Health</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Physical Education and Health (HOPE)</h4>
-                    <p class="subject-description">Focuses on fitness, sports, and health education to promote lifelong wellness and physical activity.</p>
-                </div>
-                <div class="teacher-footer">
-                    "A healthy body houses a healthy mind."
-                </div>
-            </div>
-
-
-            <div class="teacher-card fade-in delay-3">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Ma'am. Araneta</h3>
-                    <p class="teacher-subject">Physical Science</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Physical Science</h4>
-                    <p class="subject-description">Covers basic concepts of chemistry and physics, including matter, motion, energy, and the universe.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Science is the poetry of reality."
-                </div>
-            </div>
-
-            <div class="teacher-card fade-in">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Ma'am. Ravis</h3>
-                    <p class="teacher-subject">EAPP & MIL</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>English for Academic and Professional Purposes (EAPP)</h4>
-                    <p class="subject-description">Develops communication skills in academic and professional contexts, emphasizing critical reading and writing.</p>
-                    <h4>Media and Information Literacy (MIL)</h4>
-                    <p class="subject-description">Teaches how to access, analyze, evaluate, and create media content responsibly in the digital age.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Words have power use them wisely."
-                </div>
-            </div>
-
-            <div class="teacher-card fade-in delay-1">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Ma'am. Viana</h3>
-                    <p class="teacher-subject">Filipino sa Piling Larang</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Filipino sa Piling Larang (FPL)</h4>
-                    <p class="subject-description">Enhances Filipino language skills in specific fields or tracks, focusing on technical and professional applications.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Ang wika ay kaluluwa ng bayan."
-                </div>
-            </div>
-
-            <div class="teacher-card fade-in delay-3">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Sir. Vincent</h3>
-                    <p class="teacher-subject">Business Finance</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Business Finance</h4>
-                    <p class="subject-description">Introduces financial management principles, investment decisions, and financial planning for businesses.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Finance is the art of passing money from hand to hand until it disappears."
-                </div>
-            </div>
-
-            <div class="teacher-card fade-in">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Ma'am. Rochelle</h3>
-                    <p class="teacher-subject">Marketing & Business Ethics</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Principles of Marketing</h4>
-                    <p class="subject-description">Covers fundamental marketing concepts, strategies, and consumer behavior in business contexts.</p>
-                    <h4>Business Ethics and Social Responsibility</h4>
-                    <p class="subject-description">Examines ethical decision-making and corporate social responsibility in business environments.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Do well by doing good."
-                </div>
-            </div>
-
-            <div class="teacher-card fade-in delay-1">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Ma'am. Ramos</h3>
-                    <p class="teacher-subject">FABM 2</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Fundamentals of Accountancy, Business and Management 2</h4>
-                    <p class="subject-description">Provides foundational knowledge in accounting, business, and management principles for ABM students.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Numbers tell the story of business."
-                </div>
-            </div>
-
-            <div class="teacher-card fade-in delay-2">
-                <div class="teacher-header">
-                    <h3 class="teacher-name">Sir. Eric</h3>
-                    <p class="teacher-subject">Work Immersion</p>
-                </div>
-                <div class="teacher-body">
-                    <h4>Work Immersion</h4>
-                    <p class="subject-description">Provides hands-on experience in real work environments to develop skills and prepare students for future careers.</p>
-                </div>
-                <div class="teacher-footer">
-                    "Experience is the best teacher."
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Memories Section -->
-    <section id="memories">
-        <h2 class="section-title">A Journey to Remember</h2>
-        <div class="memory-content">
-            <p>As I sit here reflecting on our journey from <span class="memory-highlight">Grade 11 to 12</span>, I'm overwhelmed by the memories that flood back each one a snapshot of moments that made this chapter of my life unforgettable. We weren't just classmates, we were a <span class="memory-highlight">family</span>, growing up together through laughter, nervousness, and victories.</p>
-        
-            <p>I remember how it all began in <span class="memory-highlight">Grade 11</span>. We were a group full of energy, curiosity, and hope. Even though we had the same class, <span class="memory-highlight">six new faces joined us in Grade 12</span> (two boys and four girls) and <span class="memory-highlight">eight classmates left</span>. Despite the changes, we stayed close, and the bond we built continued to grow.</p>
-        
-            <p>One of my favorite memories was when we watched <span class="memory-highlight">Elemental together</span>. That movie hit us all hard most of us <span class="memory-highlight">cried</span> over the emotional scenes, not afraid to show how much we were touched. It was one of those rare times we were completely quiet, just feeling together.</p>
-        
-            <p>And then, of course, came the <span class="memory-highlight">laughter during class reports</span>. Whenever someone was reporting and something funny happened, we couldn't hold it in. But when it was our turn, the <span class="memory-highlight">nervousness would kick in hard</span>. We'd glance at each other with those "please save me" looks, and somehow, we always managed to get through it.</p>
-        
-            <p>Our <span class="memory-highlight">Year End Party in Grade 11</span> was magical. From the <span class="memory-highlight">best smile (especially hers)</span>, to dancing, gaming, and our gift exchange it was pure joy. And who could forget when we <span class="memory-highlight">surprised Sir Flor on Teacher's Day</span> with simple gifts and shared meals. I still miss that moment the excitement, the teamwork, and the smiles we all had.</p>
-        
-            <p><span class="memory-highlight">Grade 12</span> was tougher but just as memorable. In <span class="memory-highlight">FABM</span>, we often found ourselves <span class="memory-highlight">copying from each other</span> when clueless about calculations. It wasn't laziness - we were leaning on each other, and that's what made it special.</p>
-        
-            <p>Our <span class="memory-highlight">dance practices</span> were legendary - rehearsing <span class="memory-highlight">under the blazing sun in Intramuros</span>, even <span class="memory-highlight">under a bridge in light rain</span>. When we <span class="memory-highlight">won 2nd place in the Intercultural Dance Competition</span>, we screamed and jumped with joy. Sir Flor made it sweeter by surprising us with <span class="memory-highlight">ice cream</span>.</p>
-        
-            <p>Not all moments were perfect. Our <span class="memory-highlight">strict teacher</span> would send people out for laughing. There were <span class="memory-highlight">arguments</span> too, but we always found our way back to friendship.</p>
-        
-            <p>One memory I’ll never forget was on <span class="memory-highlight"> February 25, 2025, around 4:30–4:40 p.m</span> when I finally confessed to <span class="memory-highlight">her</span>. I was nervous and didn’t know what to say, but I gave it my best. Afterward, my friends were excited, asking me what happened. I told them, word for word, what she said. That day still plays in my mind like a movie. A few weeks later, we made a short film for our <span class="memory-highlight">MIL memory video</span>, We walked around, laughed, and filmed scenes that I later edited. Watching that video now feels like a time capsule of everything we shared.</p>
-        
-            <p>Our <span class="memory-highlight">Work Immersion (Jan 20-Feb 3)</span> was another adventure teachers cracking jokes while giving <span class="memory-highlight">ABM career advice</span>. Now at graduation, I'm <span class="memory-highlight">excited yet heartbroken</span>. I'll miss <span class="memory-highlight">her smile, her voice</span> all I have left is our <span class="memory-highlight">graduation photo</span>.</p>
-        
-            <p>The laughter, the tears, the dances, the shared food they're all part of <span class="memory-highlight">our story</span>. We may go separate ways, but I hope we'll meet again someday, still carrying these memories in our hearts.</p>
-        
-            <p>To the <span class="memory-highlight">Class of 2025 Makanature</span>, thank you for everything. I'll carry this with me forever.</p>
-        </div>        
-    </section>
-
-    <!-- ===== Gallery Section ===== -->
-<section id="gallery">
-    <h2 class="section-title">Gallery of Memories</h2>
-    <div class="gallery-container">
-
-        <!-- Grade 11 Memories -->
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="Album/Movie-Class.jpg" alt="Watching Elemental">
-                <div class="gallery-caption">Movie Day</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/Gallery/Grade11Picture.jpg">
-                <div class="gallery-caption">Grade 11 Picture</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Cantata.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Cantata</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Year End Party.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Year End Party</div>
-            </div>
-            
-            <div class="gallery-item">
-                <img src="Album/Year-End-Party.jpeg" alt="Year End Party">
-                <div class="gallery-caption">Year End Party Picture</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Fvlog.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Vlog</div>
-            </div>
-            
-            <div class="gallery-item">
-                <img src="Album/TeachersDay.jpg" alt="Surprising Sir Flor">
-                <div class="gallery-caption">Teachers' Day Prepare Suprise</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/TeachersDayPreparationSuprise.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Teachers Day Preparation</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/TeachrsDay-001.jpg" alt="Teachers Day">
-                <div class="gallery-caption">Teachers Day Suprise</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/Gallery/Friday.jpeg">
-                <div class="gallery-caption">Catch up Friday</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/11 Makakalikasan.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Makakalikasan Class</div>
-            </div>
-            
-            <div class="gallery-item">
-                <img src="Album/Practice001.jpeg" alt="Dance Practice">
-                <div class="gallery-caption">Practice Under the Bridge</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Classmates.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Grade 11</div>
-            </div>
-
-            <!-- Grade 12 Memories -->
-
-            <div class="gallery-item">
-                <img src="Album/Dance001.jpeg">
-                <div class="gallery-caption"></div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/ClasspicBestTeacher.jpeg">
-                <div class="gallery-caption">UCPS ClassPicture</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/Intercultural-Dance.jpg" alt="Dance Competition Win">
-                <div class="gallery-caption">Intercultural Dance Picture</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Intercultural Dance.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Intercultural Dance</div>
-            </div>
-            
-            <div class="gallery-item">
-                <img src="Album/WorkImmersionPic-001.png">
-                <div class="gallery-caption">WorkImmersion</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/WorkImmersionPic.png">
-                <div class="gallery-caption">WorkImmersion</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/Gallery/ClassPicture.jpg">
-                <div class="gallery-caption">Class Picture</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/GraduationPic.jpg">
-                <div class="gallery-caption">Graduation Pictures</div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="Album/GraduationClassPic.jpg">
-                <div class="gallery-caption">Graduation Class Picture</div>
-            </div>
-
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Makanature Graduation.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Graduation Makanature</div>
-            </div>
-            
-            <!-- Video -->
-            <div class="gallery-item">
-                <video muted loop autoplay>
-                    <source src="Video/Memories002.mp4" type="video/mp4">
-                </video>
-                <div class="gallery-caption">Memories</div>
-            </div>
-            
-        </div>
-        
-        <!-- Main Memory Video -->
-        <div class="video-container">
-            <video class="memory-video" controls loop>
-                <source src="Video/Memories.mp4" type="video/mp4">
-                Your browser doesn't support videos.
-            </video>
-        </div>
-    </div>
-</section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <h2>Makanature 2023-2025</h2>
-            <p>Forever in our hearts</p>
-            <div class="footer-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-            <p class="copyright">2025 Graduation Memories.</p>
-        </div>
-    </footer>
 
     <script>
-        // Navigation scroll effect
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('nav');
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
+        function createSpaceBackground() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const container = document.getElementById('space-bg');
+            
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            container.appendChild(canvas);
+            
+            const stars = [];
+            const starCount = 500;
+            
+            for (let i = 0; i < starCount; i++) {
+                stars.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    radius: Math.random() * 1.5,
+                    opacity: Math.random() * 0.8 + 0.2,
+                    speed: Math.random() * 0.5
                 });
-            });
-        });
-
-        // Photo Album Animation
-        const photoSlides = document.querySelectorAll('.photo-slide');
-        const prevBtn = document.querySelector('.prev-btn');
-        const nextBtn = document.querySelector('.next-btn');
-        let currentSlide = 0;
-
-        function showSlide(n) {
-            photoSlides.forEach(slide => {
-                slide.classList.remove('active', 'prev', 'next');
-            });
+            }
             
-            currentSlide = (n + photoSlides.length) % photoSlides.length;
+            const nebulae = [];
+            const nebulaCount = 4;
             
-            photoSlides[currentSlide].classList.add('active');
-            photoSlides[(currentSlide - 1 + photoSlides.length) % photoSlides.length].classList.add('prev');
-            photoSlides[(currentSlide + 1) % photoSlides.length].classList.add('next');
-        }
+            for (let i = 0; i < nebulaCount; i++) {
+                nebulae.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    radius: Math.random() * 300 + 100,
+                    color: i === 0 ? 'rgba(94, 23, 235, 0.15)' : 
+                           i === 1 ? 'rgba(235, 64, 52, 0.1)' : 
+                           i === 2 ? 'rgba(52, 152, 235, 0.1)' : 'rgba(235, 152, 52, 0.1)',
+                    speedX: Math.random() * 0.2 - 0.1,
+                    speedY: Math.random() * 0.2 - 0.1
+                });
+            }
+            
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                nebulae.forEach(nebula => {
+                    const gradient = ctx.createRadialGradient(
+                        nebula.x, nebula.y, 0,
+                        nebula.x, nebula.y, nebula.radius
+                    );
+                    
+                    gradient.addColorStop(0, nebula.color);
+                    gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                    
+                    ctx.fillStyle = gradient;
+                    ctx.beginPath();
+                    ctx.arc(nebula.x, nebula.y, nebula.radius, 0, Math.PI * 2);
+                    ctx.fill();
 
-        function nextSlide() {
-            showSlide(currentSlide + 1);
-        }
-
-        function prevSlide() {
-            showSlide(currentSlide - 1);
-        }
-
-        nextBtn.addEventListener('click', nextSlide);
-        prevBtn.addEventListener('click', prevSlide);
-
-        // Auto-rotate slides
-        let slideInterval = setInterval(nextSlide, 5000);
-
-        // Pause auto-rotation
-        const albumContainer = document.querySelector('.album-container');
-        albumContainer.addEventListener('mouseenter', () => {
-            clearInterval(slideInterval);
-        });
-
-        albumContainer.addEventListener('mouseleave', () => {
-            slideInterval = setInterval(nextSlide, 5000);
-        });
-
-        // Initialize slides
-        showSlide(0);
-
-        // Animate elements
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in');
-                    observer.unobserve(entry.target);
-                }
+                    nebula.x += nebula.speedX;
+                    nebula.y += nebula.speedY;
+                    
+                    if (nebula.x > canvas.width + nebula.radius) nebula.x = -nebula.radius;
+                    if (nebula.x < -nebula.radius) nebula.x = canvas.width + nebula.radius;
+                    if (nebula.y > canvas.height + nebula.radius) nebula.y = -nebula.radius;
+                    if (nebula.y < -nebula.radius) nebula.y = canvas.height + nebula.radius;
+                });
+                
+                stars.forEach(star => {
+                    ctx.beginPath();
+                    ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
+                    ctx.fill();
+                    
+                    star.x -= star.speed;
+                    if (star.x < 0) star.x = canvas.width;
+                    
+                    star.opacity += (Math.random() - 0.5) * 0.05;
+                    star.opacity = Math.max(0.2, Math.min(1, star.opacity));
+                });
+                
+                requestAnimationFrame(animate);
+            }
+            
+            animate();
+            
+            window.addEventListener('resize', function() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
             });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.fade-in:not(.photo-slide)').forEach(el => {
-            observer.observe(el);
-        });
-
-        //graduation header
-        const header = document.querySelector('header');
-        header.addEventListener('click', function() {
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
+        }
+        
+        function createTwinklingStars() {
+            const container = document.getElementById('stars-container');
+            const starCount = 150;
+            
+            for (let i = 0; i < starCount; i++) {
+                const star = document.createElement('div');
+                star.classList.add('star');
+                
+                const size = Math.random() * 3;
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                const opacity = Math.random() * 0.7 + 0.3;
+                const duration = Math.random() * 3 + 2;
+                const delay = Math.random() * 5;
+                
+                star.style.width = `${size}px`;
+                star.style.height = `${size}px`;
+                star.style.left = `${posX}%`;
+                star.style.top = `${posY}%`;
+                star.style.opacity = opacity;
+                star.style.animation = `twinkle ${duration}s infinite ${delay}s`;
+                
+                container.appendChild(star);
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            createSpaceBackground();
+            createTwinklingStars();
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>
